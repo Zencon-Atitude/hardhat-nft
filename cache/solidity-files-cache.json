@@ -41,41 +41,6 @@
         "myNFT"
       ]
     },
-    "/home/expoilderk/Projetos/zencon/hardhat-nft/node_modules/@openzeppelin/contracts/utils/Counters.sol": {
-      "lastModificationDate": 1695018174557,
-      "contentHash": "74654e3ae5d7f39555055dfe244dab7a",
-      "sourceName": "@openzeppelin/contracts/utils/Counters.sol",
-      "solcConfig": {
-        "version": "0.8.19",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "Counters"
-      ]
-    },
     "/home/expoilderk/Projetos/zencon/hardhat-nft/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
       "lastModificationDate": 1695018175137,
       "contentHash": "5a20b2cad87ddb61c7a3a6af21289e28",
@@ -111,6 +76,41 @@
       ],
       "artifacts": [
         "Ownable"
+      ]
+    },
+    "/home/expoilderk/Projetos/zencon/hardhat-nft/node_modules/@openzeppelin/contracts/utils/Counters.sol": {
+      "lastModificationDate": 1695018174557,
+      "contentHash": "74654e3ae5d7f39555055dfe244dab7a",
+      "sourceName": "@openzeppelin/contracts/utils/Counters.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Counters"
       ]
     },
     "/home/expoilderk/Projetos/zencon/hardhat-nft/node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol": {
@@ -229,41 +229,6 @@
         "Context"
       ]
     },
-    "/home/expoilderk/Projetos/zencon/hardhat-nft/node_modules/@openzeppelin/contracts/utils/Address.sol": {
-      "lastModificationDate": 1695018174529,
-      "contentHash": "211ffd288c1588ba8c10eae668ca3c66",
-      "sourceName": "@openzeppelin/contracts/utils/Address.sol",
-      "solcConfig": {
-        "version": "0.8.19",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.1"
-      ],
-      "artifacts": [
-        "Address"
-      ]
-    },
     "/home/expoilderk/Projetos/zencon/hardhat-nft/node_modules/@openzeppelin/contracts/utils/Strings.sol": {
       "lastModificationDate": 1695018175178,
       "contentHash": "48686fc32a22a3754b8e63321857dd2a",
@@ -302,10 +267,10 @@
         "Strings"
       ]
     },
-    "/home/expoilderk/Projetos/zencon/hardhat-nft/node_modules/@openzeppelin/contracts/token/ERC721/IERC721.sol": {
-      "lastModificationDate": 1695018175023,
-      "contentHash": "48de4c9a3a4ae5ef66a2aa620843413f",
-      "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721.sol",
+    "/home/expoilderk/Projetos/zencon/hardhat-nft/node_modules/@openzeppelin/contracts/utils/Address.sol": {
+      "lastModificationDate": 1695018174529,
+      "contentHash": "211ffd288c1588ba8c10eae668ca3c66",
+      "sourceName": "@openzeppelin/contracts/utils/Address.sol",
       "solcConfig": {
         "version": "0.8.19",
         "settings": {
@@ -329,14 +294,12 @@
           }
         }
       },
-      "imports": [
-        "../../utils/introspection/IERC165.sol"
-      ],
+      "imports": [],
       "versionPragmas": [
-        "^0.8.0"
+        "^0.8.1"
       ],
       "artifacts": [
-        "IERC721"
+        "Address"
       ]
     },
     "/home/expoilderk/Projetos/zencon/hardhat-nft/node_modules/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol": {
@@ -409,6 +372,43 @@
       ],
       "artifacts": [
         "IERC721Metadata"
+      ]
+    },
+    "/home/expoilderk/Projetos/zencon/hardhat-nft/node_modules/@openzeppelin/contracts/token/ERC721/IERC721.sol": {
+      "lastModificationDate": 1695018175023,
+      "contentHash": "48de4c9a3a4ae5ef66a2aa620843413f",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../utils/introspection/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC721"
       ]
     },
     "/home/expoilderk/Projetos/zencon/hardhat-nft/node_modules/@openzeppelin/contracts/utils/introspection/ERC165.sol": {
