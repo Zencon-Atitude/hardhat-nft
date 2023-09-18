@@ -40,7 +40,7 @@ This API Key can be placed in an .env
 NFT_STORAGE_API_KEY="YOUR_API_KEY"
 ```
 
-# Storing data with nft.storage
+## Storing data with nft.storage
 
 ```shell
 npx hardhat run scripts/storageData.js
@@ -68,7 +68,7 @@ Open a new terminal and run:
 npx hardhat run scripts/deploy.js --network truffleDashboard
 ```
 
-# Minting an NFT
+## Minting an NFT
 
 ```shell
 npx hardhat run scripts/mintNFT.js --network truffleDashboard
